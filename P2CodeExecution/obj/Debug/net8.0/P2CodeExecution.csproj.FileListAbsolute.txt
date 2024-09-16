@@ -1,0 +1,14 @@
+C:\Projects\P2CodeExecution\bin\Debug\net8.0\P2CodeExecution.exe
+C:\Projects\P2CodeExecution\bin\Debug\net8.0\P2CodeExecution.deps.json
+C:\Projects\P2CodeExecution\bin\Debug\net8.0\P2CodeExecution.runtimeconfig.json
+C:\Projects\P2CodeExecution\bin\Debug\net8.0\P2CodeExecution.dll
+C:\Projects\P2CodeExecution\bin\Debug\net8.0\P2CodeExecution.pdb
+C:\Projects\P2CodeExecution\obj\Debug\net8.0\P2CodeExecution.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\P2CodeExecution\obj\Debug\net8.0\P2CodeExecution.AssemblyInfoInputs.cache
+C:\Projects\P2CodeExecution\obj\Debug\net8.0\P2CodeExecution.AssemblyInfo.cs
+C:\Projects\P2CodeExecution\obj\Debug\net8.0\P2CodeExecution.csproj.CoreCompileInputs.cache
+C:\Projects\P2CodeExecution\obj\Debug\net8.0\P2CodeExecution.dll
+C:\Projects\P2CodeExecution\obj\Debug\net8.0\refint\P2CodeExecution.dll
+C:\Projects\P2CodeExecution\obj\Debug\net8.0\P2CodeExecution.pdb
+C:\Projects\P2CodeExecution\obj\Debug\net8.0\P2CodeExecution.genruntimeconfig.cache
+C:\Projects\P2CodeExecution\obj\Debug\net8.0\ref\P2CodeExecution.dll
