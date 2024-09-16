@@ -1,0 +1,15 @@
+C:\Projects\gp24-102-CSarp-Basics\P6DataTypes\P6DataTypes\obj\Debug\net8.0\P6DataTypes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\gp24-102-CSarp-Basics\P6DataTypes\P6DataTypes\obj\Debug\net8.0\P6DataTypes.AssemblyInfoInputs.cache
+C:\Projects\gp24-102-CSarp-Basics\P6DataTypes\P6DataTypes\obj\Debug\net8.0\P6DataTypes.AssemblyInfo.cs
+C:\Projects\gp24-102-CSarp-Basics\P6DataTypes\P6DataTypes\obj\Debug\net8.0\P6DataTypes.csproj.CoreCompileInputs.cache
+C:\Projects\gp24-102-CSarp-Basics\P6DataTypes\P6DataTypes\obj\Debug\net8.0\P6DataTypes.sourcelink.json
+C:\Projects\gp24-102-CSarp-Basics\P6DataTypes\P6DataTypes\bin\Debug\net8.0\P6DataTypes.exe
+C:\Projects\gp24-102-CSarp-Basics\P6DataTypes\P6DataTypes\bin\Debug\net8.0\P6DataTypes.deps.json
+C:\Projects\gp24-102-CSarp-Basics\P6DataTypes\P6DataTypes\bin\Debug\net8.0\P6DataTypes.runtimeconfig.json
+C:\Projects\gp24-102-CSarp-Basics\P6DataTypes\P6DataTypes\bin\Debug\net8.0\P6DataTypes.dll
+C:\Projects\gp24-102-CSarp-Basics\P6DataTypes\P6DataTypes\bin\Debug\net8.0\P6DataTypes.pdb
+C:\Projects\gp24-102-CSarp-Basics\P6DataTypes\P6DataTypes\obj\Debug\net8.0\P6DataTypes.dll
+C:\Projects\gp24-102-CSarp-Basics\P6DataTypes\P6DataTypes\obj\Debug\net8.0\refint\P6DataTypes.dll
+C:\Projects\gp24-102-CSarp-Basics\P6DataTypes\P6DataTypes\obj\Debug\net8.0\P6DataTypes.pdb
+C:\Projects\gp24-102-CSarp-Basics\P6DataTypes\P6DataTypes\obj\Debug\net8.0\P6DataTypes.genruntimeconfig.cache
+C:\Projects\gp24-102-CSarp-Basics\P6DataTypes\P6DataTypes\obj\Debug\net8.0\ref\P6DataTypes.dll
