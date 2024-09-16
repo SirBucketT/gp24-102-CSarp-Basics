@@ -1,0 +1,15 @@
+C:\Projects\gp24-102-CSarp-Basics\P7Input\P7Input\bin\Debug\net8.0\P7Input.exe
+C:\Projects\gp24-102-CSarp-Basics\P7Input\P7Input\bin\Debug\net8.0\P7Input.deps.json
+C:\Projects\gp24-102-CSarp-Basics\P7Input\P7Input\bin\Debug\net8.0\P7Input.runtimeconfig.json
+C:\Projects\gp24-102-CSarp-Basics\P7Input\P7Input\bin\Debug\net8.0\P7Input.dll
+C:\Projects\gp24-102-CSarp-Basics\P7Input\P7Input\bin\Debug\net8.0\P7Input.pdb
+C:\Projects\gp24-102-CSarp-Basics\P7Input\P7Input\obj\Debug\net8.0\P7Input.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\gp24-102-CSarp-Basics\P7Input\P7Input\obj\Debug\net8.0\P7Input.AssemblyInfoInputs.cache
+C:\Projects\gp24-102-CSarp-Basics\P7Input\P7Input\obj\Debug\net8.0\P7Input.AssemblyInfo.cs
+C:\Projects\gp24-102-CSarp-Basics\P7Input\P7Input\obj\Debug\net8.0\P7Input.csproj.CoreCompileInputs.cache
+C:\Projects\gp24-102-CSarp-Basics\P7Input\P7Input\obj\Debug\net8.0\P7Input.sourcelink.json
+C:\Projects\gp24-102-CSarp-Basics\P7Input\P7Input\obj\Debug\net8.0\P7Input.dll
+C:\Projects\gp24-102-CSarp-Basics\P7Input\P7Input\obj\Debug\net8.0\refint\P7Input.dll
+C:\Projects\gp24-102-CSarp-Basics\P7Input\P7Input\obj\Debug\net8.0\P7Input.pdb
+C:\Projects\gp24-102-CSarp-Basics\P7Input\P7Input\obj\Debug\net8.0\P7Input.genruntimeconfig.cache
+C:\Projects\gp24-102-CSarp-Basics\P7Input\P7Input\obj\Debug\net8.0\ref\P7Input.dll
