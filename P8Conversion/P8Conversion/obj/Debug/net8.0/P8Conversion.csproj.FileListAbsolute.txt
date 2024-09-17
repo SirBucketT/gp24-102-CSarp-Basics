@@ -1,0 +1,15 @@
+C:\Projects\gp24-102-CSarp-Basics\P8Conversion\P8Conversion\obj\Debug\net8.0\P8Conversion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\gp24-102-CSarp-Basics\P8Conversion\P8Conversion\obj\Debug\net8.0\P8Conversion.AssemblyInfoInputs.cache
+C:\Projects\gp24-102-CSarp-Basics\P8Conversion\P8Conversion\obj\Debug\net8.0\P8Conversion.AssemblyInfo.cs
+C:\Projects\gp24-102-CSarp-Basics\P8Conversion\P8Conversion\obj\Debug\net8.0\P8Conversion.csproj.CoreCompileInputs.cache
+C:\Projects\gp24-102-CSarp-Basics\P8Conversion\P8Conversion\obj\Debug\net8.0\P8Conversion.sourcelink.json
+C:\Projects\gp24-102-CSarp-Basics\P8Conversion\P8Conversion\bin\Debug\net8.0\P8Conversion.exe
+C:\Projects\gp24-102-CSarp-Basics\P8Conversion\P8Conversion\bin\Debug\net8.0\P8Conversion.deps.json
+C:\Projects\gp24-102-CSarp-Basics\P8Conversion\P8Conversion\bin\Debug\net8.0\P8Conversion.runtimeconfig.json
+C:\Projects\gp24-102-CSarp-Basics\P8Conversion\P8Conversion\bin\Debug\net8.0\P8Conversion.dll
+C:\Projects\gp24-102-CSarp-Basics\P8Conversion\P8Conversion\bin\Debug\net8.0\P8Conversion.pdb
+C:\Projects\gp24-102-CSarp-Basics\P8Conversion\P8Conversion\obj\Debug\net8.0\P8Conversion.dll
+C:\Projects\gp24-102-CSarp-Basics\P8Conversion\P8Conversion\obj\Debug\net8.0\refint\P8Conversion.dll
+C:\Projects\gp24-102-CSarp-Basics\P8Conversion\P8Conversion\obj\Debug\net8.0\P8Conversion.pdb
+C:\Projects\gp24-102-CSarp-Basics\P8Conversion\P8Conversion\obj\Debug\net8.0\P8Conversion.genruntimeconfig.cache
+C:\Projects\gp24-102-CSarp-Basics\P8Conversion\P8Conversion\obj\Debug\net8.0\ref\P8Conversion.dll

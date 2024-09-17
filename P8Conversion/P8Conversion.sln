@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P8Conversion", "P8Conversion\P8Conversion.csproj", "{CC65C68B-E4FE-45B2-9884-AE1DFAF1FD39}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC65C68B-E4FE-45B2-9884-AE1DFAF1FD39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC65C68B-E4FE-45B2-9884-AE1DFAF1FD39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC65C68B-E4FE-45B2-9884-AE1DFAF1FD39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC65C68B-E4FE-45B2-9884-AE1DFAF1FD39}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
