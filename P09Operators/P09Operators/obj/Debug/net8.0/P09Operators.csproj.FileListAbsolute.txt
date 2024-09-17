@@ -1,0 +1,15 @@
+C:\Projects\gp24-102-CSarp-Basics\P09Operators\P09Operators\obj\Debug\net8.0\P09Operators.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\gp24-102-CSarp-Basics\P09Operators\P09Operators\obj\Debug\net8.0\P09Operators.AssemblyInfoInputs.cache
+C:\Projects\gp24-102-CSarp-Basics\P09Operators\P09Operators\obj\Debug\net8.0\P09Operators.AssemblyInfo.cs
+C:\Projects\gp24-102-CSarp-Basics\P09Operators\P09Operators\obj\Debug\net8.0\P09Operators.csproj.CoreCompileInputs.cache
+C:\Projects\gp24-102-CSarp-Basics\P09Operators\P09Operators\obj\Debug\net8.0\P09Operators.sourcelink.json
+C:\Projects\gp24-102-CSarp-Basics\P09Operators\P09Operators\bin\Debug\net8.0\P09Operators.exe
+C:\Projects\gp24-102-CSarp-Basics\P09Operators\P09Operators\bin\Debug\net8.0\P09Operators.deps.json
+C:\Projects\gp24-102-CSarp-Basics\P09Operators\P09Operators\bin\Debug\net8.0\P09Operators.runtimeconfig.json
+C:\Projects\gp24-102-CSarp-Basics\P09Operators\P09Operators\bin\Debug\net8.0\P09Operators.dll
+C:\Projects\gp24-102-CSarp-Basics\P09Operators\P09Operators\bin\Debug\net8.0\P09Operators.pdb
+C:\Projects\gp24-102-CSarp-Basics\P09Operators\P09Operators\obj\Debug\net8.0\P09Operators.dll
+C:\Projects\gp24-102-CSarp-Basics\P09Operators\P09Operators\obj\Debug\net8.0\refint\P09Operators.dll
+C:\Projects\gp24-102-CSarp-Basics\P09Operators\P09Operators\obj\Debug\net8.0\P09Operators.pdb
+C:\Projects\gp24-102-CSarp-Basics\P09Operators\P09Operators\obj\Debug\net8.0\P09Operators.genruntimeconfig.cache
+C:\Projects\gp24-102-CSarp-Basics\P09Operators\P09Operators\obj\Debug\net8.0\ref\P09Operators.dll
