@@ -229,6 +229,7 @@ if (age >= 20 && bmi <= 18.5)
 {
     Console.Write($"A BLI between 25-29-9 is considered overweight.");
     Console.WriteLine("If BMI reach above 30 then it's considered as obesity for a adult above 20 in age.");
+    Console.WriteLine("Source: ChatGPT, the most reliable source on planet earth");
 }
 
 
