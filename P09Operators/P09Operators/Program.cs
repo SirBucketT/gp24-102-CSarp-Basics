@@ -93,3 +93,6 @@ string divisionInput = Console.ReadLine();
 Console.WriteLine($"{divisionInput} divided by");
 string divisionInput1 = Console.ReadLine();
 
+int division = int.Parse(divisionInput);
+int division1 = int.Parse(divisionInput1);
+
