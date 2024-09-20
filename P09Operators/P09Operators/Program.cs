@@ -96,7 +96,7 @@ string divisionInput1 = Console.ReadLine();
 int division = int.Parse(divisionInput);
 int division1 = int.Parse(divisionInput1);
 
-int divisionResult = division / division1;
+float divisionResult = division / division1;
 Console.WriteLine($"{division}/{division1}={divisionResult}");
 
 Console.WriteLine("press Q and enter to proceed to next conversion");
@@ -111,3 +111,4 @@ if (RemainderConverter == "Q")
 
 //proceeds to part 5 of the assignment
 
+Console.Write("P09_04Remainder");
