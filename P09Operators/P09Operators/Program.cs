@@ -2,7 +2,7 @@
 
 using System.Data;
 using System;
-// /*
+ /*
 string Question = ("Give me a number of seconds");
 Console.WriteLine(Question);
 
@@ -202,7 +202,34 @@ if (BMIConverter == "Q")
 }
 
 //Part 9 of the assignment
-
+*/
 Console.WriteLine("P09_08BMI");
+Console.WriteLine("How old are you?");
+int age = int.Parse (Console.ReadLine());
+
+Console.WriteLine("How much do you weight?");
+string weightInput = Console.ReadLine();
+double weight = double.Parse(weightInput);
+
+Console.WriteLine("How tall are you?");
+string heightInput = Console.ReadLine();
+double height = double.Parse(heightInput);
+
+//Apparently BMI is weight / (height * height).
+double bmi = weight / (height * height);
+
+Console.WriteLine($"Your BMI is {bmi}." );
+if (age >= 20 && bmi <= 18.5)
+{
+    Console.Write("Your BMI is very low, mayhaps you should look it up.");
+} else if (age >= 20 && bmi >= 18.5 && bmi <= 24.9)
+{
+    Console.Write("You are of avrage health BMI wise.");
+}else
+{
+    Console.Write($"A BLI between 25-29-9 is considered overweight.");
+    Console.WriteLine("If BMI reach above 30 then it's considered as obesity for a adult above 20 in age.");
+}
+
 
 // */
