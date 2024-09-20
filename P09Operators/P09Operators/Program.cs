@@ -87,3 +87,9 @@ if (DivisionConverter == "Q")
 
 //Assignment part 4
 
+Console.WriteLine("P09_03Division");
+Console.WriteLine("Give me 2 numbers to divide");
+string divisionInput = Console.ReadLine();
+Console.WriteLine($"{divisionInput} divided by");
+string divisionInput1 = Console.ReadLine();
+
