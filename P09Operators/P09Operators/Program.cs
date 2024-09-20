@@ -2,6 +2,8 @@
 
 using System.Data;
 using System;
+using system.Globalization;
+
 // /*
 string Question = ("Give me a number of seconds");
 Console.WriteLine(Question);
@@ -233,4 +235,41 @@ if (age >= 20 && bmi <= 18.5)
 }
 
 
+Console.WriteLine("press Q and enter to proceed to next conversion");
+String HypotenuseConverter = Console.ReadLine();
+if (HypotenuseConverter == "Q")
+{
+    Console.Clear();
+} else if (HypotenuseConverter == "q")
+{  
+    Console.Clear();
+}
 // */
+
+
+//part 10 of assignment.
+
+Console.WriteLine("P09_09Hypotenuse");
+
+
+
+
+Console.WriteLine("press Q and enter to proceed to next conversion");
+String SecondsToMinutesConverter = Console.ReadLine();
+if (SecondsToMinutesConverter == "Q")
+{
+    Console.Clear();
+} else if (SecondsToMinutesConverter == "q")
+{  
+    Console.Clear();
+}
+
+//Part 11 of the assignment
+Console.WriteLine("P09_10SecondsToMinutes");
+Console.WriteLine("Give me a time in seconds and I'll convert it over to minutes");
+int secondToMinInput = int.Parse(Console.ReadLine());
+
+int part11minutes = secondToMinInput / 60;
+int part11remainingSeconds = secondToMinInput % 60;
+
+Console.WriteLine($"{part11minutes} min and {part11remainingSeconds} seconds");
