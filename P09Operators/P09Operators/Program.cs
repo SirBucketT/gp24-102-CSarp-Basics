@@ -2,7 +2,7 @@
 
 using System.Data;
 using System;
- /*
+// /*
 string Question = ("Give me a number of seconds");
 Console.WriteLine(Question);
 
@@ -202,7 +202,7 @@ if (BMIConverter == "Q")
 }
 
 //Part 9 of the assignment
-*/
+
 Console.WriteLine("P09_08BMI");
 Console.WriteLine("How old are you?");
 int age = int.Parse (Console.ReadLine());
