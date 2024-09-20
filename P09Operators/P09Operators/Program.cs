@@ -2,7 +2,7 @@
 
 using System.Data;
 using System;
-
+/*
 string Question = ("Give me a number of seconds");
 Console.WriteLine(Question);
 
@@ -110,5 +110,16 @@ if (RemainderConverter == "Q")
 }
 
 //proceeds to part 5 of the assignment
+*/
+Console.WriteLine("P09_04Remainder");
+Console.WriteLine("First number");
+string remainderInput = (Console.ReadLine);
+Console.WriteLine("Second number");
+string remainderInput1 = (Console.ReadLine);
 
-Console.Write("P09_04Remainder");
+int remainder = int.Parse(remainderInput);
+int remainder1 = int.Parse(remainderInput1);
+
+int remainterResult = remainder % remainder1;
+
+Console.WriteLine($"Remainder of {remainder} by {remainder1} is {remainterResult}");
