@@ -51,3 +51,19 @@ double ms = kmh * 1000 / 3600;
 
 Console.WriteLine($"{kmh} converted in m/s is {ms}/s");
 
+
+//moves on to part 3 of assignment
+
+
+Console.WriteLine("press Q and enter to proceed to next conversion");
+String SpeedConversion = Console.ReadLine();
+if (SpeedConversion == "Q")
+{
+    Console.Clear();
+} else if (SpeedConversion == "q")
+{  
+    Console.Clear();
+}
+
+// actual assignment
+
