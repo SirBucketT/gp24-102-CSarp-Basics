@@ -156,8 +156,38 @@ if (NegationConverter == "Q")
 {  
     Console.Clear();
 }
-// */
+ 
 //Proceeds to part 7 of assignment.
 
-
+// /*
 Console.WriteLine("P09_06Negation");
+Console.WriteLine("Give me a input and I'll use the unary minus operator on it");
+int negationInput = int.Parse(Console.ReadLine());
+
+int negationResult = -negationInput;
+
+Console.WriteLine($"Negation number of {negationInput} is {negationResult}");
+
+Console.WriteLine("press Q and enter to proceed to next conversion");
+String ProductConverter = Console.ReadLine();
+if (ProductConverter == "Q")
+{
+    Console.Clear();
+} else if (ProductConverter == "q")
+{  
+    Console.Clear();
+}
+
+//Part 8 of assignment.
+
+Console.WriteLine("P09_07Product");
+Console.WriteLine("Input two numbers and I'll conduct a multiplcation on them");
+Console.WriteLine("Input number one");
+int productInput = int.Parse(Console.ReadLine());
+Console.WriteLine("Input number two");
+int productInput1 = int.Parse(Console.ReadLine());
+
+int productResult = productInput * productInput1;
+
+Console.WriteLine($"{productInput}*{productInput1}={productResult}");
+// */
