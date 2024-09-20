@@ -96,3 +96,18 @@ string divisionInput1 = Console.ReadLine();
 int division = int.Parse(divisionInput);
 int division1 = int.Parse(divisionInput1);
 
+int divisionResult = division / division1;
+Console.WriteLine($"{division}/{division1}={divisionResult}");
+
+Console.WriteLine("press Q and enter to proceed to next conversion");
+String RemainderConverter = Console.ReadLine();
+if (RemainderConverter == "Q")
+{
+    Console.Clear();
+} else if (RemainderConverter == "q")
+{  
+    Console.Clear();
+}
+
+//proceeds to part 5 of the assignment
+
