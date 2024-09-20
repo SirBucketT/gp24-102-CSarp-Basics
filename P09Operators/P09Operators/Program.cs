@@ -190,4 +190,19 @@ int productInput1 = int.Parse(Console.ReadLine());
 int productResult = productInput * productInput1;
 
 Console.WriteLine($"{productInput}*{productInput1}={productResult}");
+
+Console.WriteLine("press Q and enter to proceed to next conversion");
+String BMIConverter = Console.ReadLine();
+if (BMIConverter == "Q")
+{
+    Console.Clear();
+} else if (BMIConverter == "q")
+{  
+    Console.Clear();
+}
+
+//Part 9 of the assignment
+
+Console.WriteLine("P09_08BMI");
+
 // */
