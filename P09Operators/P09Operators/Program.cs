@@ -51,19 +51,39 @@ double ms = kmh * 1000 / 3600;
 
 Console.WriteLine($"{kmh} converted in m/s is {ms}/s");
 
-
-//moves on to part 3 of assignment
-
-
 Console.WriteLine("press Q and enter to proceed to next conversion");
-String SpeedConversion = Console.ReadLine();
-if (SpeedConversion == "Q")
+String SecondConverter = Console.ReadLine();
+if (SecondConverter == "Q")
 {
     Console.Clear();
-} else if (SpeedConversion == "q")
+} else if (SecondConverter == "q")
 {  
     Console.Clear();
 }
 
-// actual assignment
+//moves on to part 3 of assignment
+
+
+
+Console.WriteLine("P09_02MinutesToSeconds");
+Console.WriteLine("Give me x amount of minutes and I'll convert it into seconds.");
+
+string minuteInput = Console.ReadLine();
+int AmountOfMinutes = int.Parse(minuteInput);
+
+int AmountOfSeconds = AmountOfMinutes * 60;
+
+Console.WriteLine($"{AmountOfMinutes} in seconds is {AmountOfSeconds}");
+
+Console.WriteLine("press Q and enter to proceed to next conversion");
+String DivisionConverter = Console.ReadLine();
+if (DivisionConverter == "Q")
+{
+    Console.Clear();
+} else if (DivisionConverter == "q")
+{  
+    Console.Clear();
+}
+
+//Assignment part 4
 
