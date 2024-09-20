@@ -2,7 +2,7 @@
 
 using System.Data;
 using System;
-/*
+
 string Question = ("Give me a number of seconds");
 Console.WriteLine(Question);
 
@@ -110,12 +110,12 @@ if (RemainderConverter == "Q")
 }
 
 //proceeds to part 5 of the assignment
-*/
+
 Console.WriteLine("P09_04Remainder");
 Console.WriteLine("First number");
-string remainderInput = (Console.ReadLine);
+string remainderInput = Console.ReadLine();
 Console.WriteLine("Second number");
-string remainderInput1 = (Console.ReadLine);
+string remainderInput1 = Console.ReadLine();
 
 int remainder = int.Parse(remainderInput);
 int remainder1 = int.Parse(remainderInput1);
@@ -123,3 +123,15 @@ int remainder1 = int.Parse(remainderInput1);
 int remainterResult = remainder % remainder1;
 
 Console.WriteLine($"Remainder of {remainder} by {remainder1} is {remainterResult}");
+
+Console.WriteLine("press Q and enter to proceed to next conversion");
+String CircleAreaConverter = Console.ReadLine();
+if (CircleAreaConverter == "Q")
+{
+    Console.Clear();
+} else if (CircleAreaConverter == "q")
+{  
+    Console.Clear();
+}
+
+Console.WriteLine("P09_05CircleArea");
