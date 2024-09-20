@@ -16,7 +16,7 @@ int numbersOfMinutes = remainingSeconds / 60;
 int numberOfSeconds = remainingSeconds % 60;
 
 Console.WriteLine("Number of days" + numbersOfDays);
-Console.WriteLine("Number of hous" + numberOfHours);
+Console.WriteLine("Number of hours" + numberOfHours);
 Console.WriteLine("Number of minutes" + numbersOfMinutes);
 Console.WriteLine("Number of seconds" + numberOfSeconds);
 
@@ -36,3 +36,11 @@ if (SpeedConversion == "Q")
 
 
 Console.WriteLine("P09_01SpeedConverter");
+Console.WriteLine("Give me a input of KM/h and I'll convert it into m/s.");
+string kmInput = Console.ReadLine();
+int km = int.Parse(kmInput);
+
+int meters = km / 1000;
+
+Console.WriteLine(meters);
+
