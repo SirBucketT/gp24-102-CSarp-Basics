@@ -2,7 +2,7 @@
 
 using System.Data;
 using System;
-
+// /*
 string Question = ("Give me a number of seconds");
 Console.WriteLine(Question);
 
@@ -134,4 +134,16 @@ if (CircleAreaConverter == "Q")
     Console.Clear();
 }
 
+//Proceeds to part 6 of assignment
+
 Console.WriteLine("P09_05CircleArea");
+Console.WriteLine("Input radius of circle");
+float radiusInput = float.Parse(Console.ReadLine());
+
+//Calculating area using pi. Man it was forever since I used pi
+double area = Math.PI * Math.Pow(radiusInput, 2);
+
+Console.WriteLine($"Circle area is probably something like {area}");
+
+
+// */ 
