@@ -1,5 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+using System.Data;
+
 string Question = ("Give me a number of seconds");
 Console.WriteLine(Question);
 
@@ -21,3 +23,16 @@ Console.WriteLine("Number of seconds" + numberOfSeconds);
 Console.WriteLine($"{numbersOfDays}:{numberOfHours}:{numbersOfMinutes}:{numberOfSeconds}");
 
 Console.WriteLine($"In total that is {(double)seconds / 86400}days.");
+
+Console.WriteLine("press Q and enter to proceed to next conversion");
+String SpeedConversion = Console.ReadLine();
+if (SpeedConversion == "Q")
+{
+    Console.Clear();
+} else if (SpeedConversion == "q")
+{  
+    Console.Clear();
+}
+
+
+Console.WriteLine("P09_01SpeedConverter");
