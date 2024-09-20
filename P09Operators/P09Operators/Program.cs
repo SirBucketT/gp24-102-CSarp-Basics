@@ -146,4 +146,18 @@ double area = Math.PI * Math.Pow(radiusInput, 2);
 Console.WriteLine($"Circle area is probably something like {area}");
 
 
-// */ 
+
+Console.WriteLine("press Q and enter to proceed to next conversion");
+String NegationConverter = Console.ReadLine();
+if (NegationConverter == "Q")
+{
+    Console.Clear();
+} else if (NegationConverter == "q")
+{  
+    Console.Clear();
+}
+// */
+//Proceeds to part 7 of assignment.
+
+
+Console.WriteLine("P09_06Negation");
