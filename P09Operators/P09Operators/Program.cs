@@ -231,7 +231,6 @@ if (age >= 20 && bmi <= 18.5)
 {
     Console.Write($"A BLI between 25-29-9 is considered overweight.");
     Console.WriteLine("If BMI reach above 30 then it's considered as obesity for a adult above 20 in age.");
-    Console.WriteLine("Source: ChatGPT, the most reliable source on planet earth");
 }
 
 
@@ -250,7 +249,16 @@ if (HypotenuseConverter == "Q")
 //part 10 of assignment.
 
 Console.WriteLine("P09_09Hypotenuse");
+Console.WriteLine("Give me a input of hypotenuse sides to calculate");
+Console.Write("First input");
 
+double line01 = double.Parse(Console.ReadLine());
+Console.WriteLine($"First input = {line01}, give a seconds inpiiy to calculate");
+double line02 = double.Parse(Console.ReadLine());
+
+double hypotenuse = Math.Sqrt(line01 * line01 + line02 * line02);
+
+Console.WriteLine($"The hypotenuse of {line01} and {line02} is {hypotenuse}");
 
 
 
