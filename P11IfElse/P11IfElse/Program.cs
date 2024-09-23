@@ -23,3 +23,4 @@ if (age >= 20)
     isAdult = true;
     Console.WriteLine("You are a adult");
 }
+Console.WriteLine("Give me another integer");
