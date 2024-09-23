@@ -1,0 +1,15 @@
+C:\Projects\gp24-102-CSarp-Basics\P11IfElse\P11IfElse\bin\Debug\net8.0\P11IfElse.exe
+C:\Projects\gp24-102-CSarp-Basics\P11IfElse\P11IfElse\bin\Debug\net8.0\P11IfElse.deps.json
+C:\Projects\gp24-102-CSarp-Basics\P11IfElse\P11IfElse\bin\Debug\net8.0\P11IfElse.runtimeconfig.json
+C:\Projects\gp24-102-CSarp-Basics\P11IfElse\P11IfElse\bin\Debug\net8.0\P11IfElse.dll
+C:\Projects\gp24-102-CSarp-Basics\P11IfElse\P11IfElse\bin\Debug\net8.0\P11IfElse.pdb
+C:\Projects\gp24-102-CSarp-Basics\P11IfElse\P11IfElse\obj\Debug\net8.0\P11IfElse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\gp24-102-CSarp-Basics\P11IfElse\P11IfElse\obj\Debug\net8.0\P11IfElse.AssemblyInfoInputs.cache
+C:\Projects\gp24-102-CSarp-Basics\P11IfElse\P11IfElse\obj\Debug\net8.0\P11IfElse.AssemblyInfo.cs
+C:\Projects\gp24-102-CSarp-Basics\P11IfElse\P11IfElse\obj\Debug\net8.0\P11IfElse.csproj.CoreCompileInputs.cache
+C:\Projects\gp24-102-CSarp-Basics\P11IfElse\P11IfElse\obj\Debug\net8.0\P11IfElse.sourcelink.json
+C:\Projects\gp24-102-CSarp-Basics\P11IfElse\P11IfElse\obj\Debug\net8.0\P11IfElse.dll
+C:\Projects\gp24-102-CSarp-Basics\P11IfElse\P11IfElse\obj\Debug\net8.0\refint\P11IfElse.dll
+C:\Projects\gp24-102-CSarp-Basics\P11IfElse\P11IfElse\obj\Debug\net8.0\P11IfElse.pdb
+C:\Projects\gp24-102-CSarp-Basics\P11IfElse\P11IfElse\obj\Debug\net8.0\P11IfElse.genruntimeconfig.cache
+C:\Projects\gp24-102-CSarp-Basics\P11IfElse\P11IfElse\obj\Debug\net8.0\ref\P11IfElse.dll
