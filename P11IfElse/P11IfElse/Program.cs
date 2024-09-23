@@ -53,26 +53,27 @@ Console.WriteLine("P11_2MinMax");
 Console.WriteLine("Give me three numbers and I'll tell you the two largest once");
 
 Console.WriteLine("First Number");
-int num1 = int.Parse(Console.ReadLine());
+int numberTheFirst1 = int.Parse(Console.ReadLine());
 Console.WriteLine("Second Number");
-int num2 = int.Parse(Console.ReadLine());
+int numberTheSeconds = int.Parse(Console.ReadLine());
 Console.WriteLine("Number The Thrid");
-int num3 = int.Parse(Console.ReadLine());
+int numberTheThird = int.Parse(Console.ReadLine());
 
-int min = num1;
-int max = num1;
+int min = numberTheFirst1;
+int max = numberTheFirst1;
 
-if (min < num2) //if min is lower then the value of 2, min addopts the value of 2 as it's own
+if (min < numberTheSeconds) //if min is lower then the value of 2, min addopts the value of 2 as it's own
 {
-    min = num2;
-}if (num3 < min) //if num3 is lower then the value of min it takes the value of min
+    min = numberTheSeconds;
+}if (numberTheThird < min) //if num3 is lower then the value of min it takes the value of min
 {
-    min = num3;
-}if (num2 > max) // if num2 is greater then the value of max, it takes the value of max
+    min = numberTheThird;
+}if (numberTheSeconds > max) // if num2 is greater then the value of max, it takes the value of max
 {
-    max = num2;
-}if (num3 > max) // if num3 is geater then max, it takes the value of max
+    max = numberTheSeconds;
+}if (numberTheThird > max) // if num3 is geater then max, it takes the value of max
 {
-    max = num3;
+    max = numberTheThird;
 }
 Console.WriteLine($"{min}, {max}");
+
