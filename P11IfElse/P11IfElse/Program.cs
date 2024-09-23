@@ -1,5 +1,4 @@
 ﻿// See https://aka.ms/new-console-template for more information
-
 Console.WriteLine("What's your age?");
 int age = int.Parse(Console.ReadLine());
 
@@ -29,3 +28,25 @@ if (anotherInt % 2 == 0)
 } else{
     Console.WriteLine("integer is an odd number");
 }
+ 
+//P11_1Grades
+Console.WriteLine("P11_1Grades");
+Console.WriteLine("This program takes a numerical grade as input from the user and then displays a letter grade (A, B, C, D, or F) ");
+int p11_1Grades = int.Parse(Console.ReadLine());
+
+if (p11_1Grades <= 60)
+{
+    Console.WriteLine("F");
+}else if (p11_1Grades <= 69){
+    Console.WriteLine("D");
+}else if (p11_1Grades <= 79){
+     Console.WriteLine("C");
+}else if (p11_1Grades <= 89){
+    Console.WriteLine("B");
+}else{
+    Console.WriteLine("A");
+}
+
+Console.WriteLine("P11_2MinMax");
+Console.WriteLine("Give me three numbers and I'll tell you the two largest once");
+
