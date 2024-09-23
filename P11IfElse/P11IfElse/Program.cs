@@ -47,6 +47,22 @@ if (p11_1Grades <= 60)
     Console.WriteLine("A");
 }
 
+
+//P11_2MinMax
 Console.WriteLine("P11_2MinMax");
 Console.WriteLine("Give me three numbers and I'll tell you the two largest once");
 
+Console.WriteLine("First Number");
+int num1 int.Parse(Console.ReadLine());
+Console.WriteLine("Second Number");
+int num2 int.Parse(Console.ReadLine());
+Console.WriteLine("Number The Thrid");
+int num3 int.Parse(Console.ReadLine());
+
+int min = num1;
+int max = num1;
+
+if (min > num2)
+{
+    min = num2;
+}
