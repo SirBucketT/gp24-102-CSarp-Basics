@@ -10,17 +10,16 @@ bool isAdult = false;
 if (age <= 12){
     isChild = true;
     Console.WriteLine("You are a child");
-}
-
-if (age >= 13 || age <= 19)
+} else if (age >= 13 || age <= 19)
 {
     isTeen = true;
     Console.WriteLine("You are a teen");
 }
-
-if (age >= 20)
+else
 {
     isAdult = true;
     Console.WriteLine("You are a adult");
 }
 Console.WriteLine("Give me another integer");
+int anotherInt = int.Parse(Console.ReadLine());
+
