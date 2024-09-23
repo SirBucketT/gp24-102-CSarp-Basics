@@ -10,7 +10,7 @@ bool isAdult  = false;
 if (age <= 12) {
     isChild = true;
     Console.WriteLine("You are but a mere child");
-} if (age > 13 && age < 19)
+} if (age > 13 || age < 19)
 {
     isTeenager = true;
     Console.WriteLine("You are but a mere teenager");
