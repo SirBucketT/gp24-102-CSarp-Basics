@@ -3,21 +3,12 @@
 Console.WriteLine("What's your age?");
 int age = int.Parse(Console.ReadLine());
 
-bool isChild = false;
-bool isTeen = false;
-bool isAdult = false;
-
 if (age <= 12){
-    isChild = true;
     Console.WriteLine("You are a child");
-} else if (age >= 13 || age <= 19)
-{
-    isTeen = true;
+} if (age <= 19){
     Console.WriteLine("You are a teen");
-}
-else
+}if (age >= 20) 
 {
-    isAdult = true;
     Console.WriteLine("You are a adult");
 }
 Console.WriteLine("Give me another integer");
