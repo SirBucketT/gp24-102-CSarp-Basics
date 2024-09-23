@@ -11,7 +11,6 @@ if (age <= 12){
     Console.WriteLine("You are a adult");
 }
 
-
 Console.WriteLine("Give me another integer");
 int anotherInt = int.Parse(Console.ReadLine());
 
@@ -22,4 +21,11 @@ else if (anotherInt == age){
     Console.WriteLine("Integer is the same as age");
 }else {
     Console.WriteLine("Integer is lower then age");
+}
+
+if (anotherInt % 2 == 0)
+{
+    Console.WriteLine("integer is an even number");
+} else{
+    Console.WriteLine("integer is an odd number");
 }
