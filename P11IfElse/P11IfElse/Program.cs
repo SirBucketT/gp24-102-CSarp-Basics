@@ -6,9 +6,9 @@ int age = int.Parse(Console.ReadLine());
 
 if (age <= 12){
     Console.WriteLine("You are a child");
-} if (age <= 19){
+} else if (age <= 19){
     Console.WriteLine("You are a teen");
-}if (age >= 20) {
+}else {
     Console.WriteLine("You are a adult");
 }
 
