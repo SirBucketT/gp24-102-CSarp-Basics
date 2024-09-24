@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
-/*
+
+//main assignment
  Console.WriteLine("What's your age?");
 int age = int.Parse(Console.ReadLine());
 
@@ -78,12 +79,31 @@ if (min < numberTheSeconds) //if min is lower then the value of 2, min addopts t
     max = numberTheThird;
 }
 Console.WriteLine($"{min}, {max}");
-
+ 
 //Part 3 of assignment
 
 Console.WriteLine("P11_3Characters");
-Console.WriteLine("");
-*/ 
+Console.WriteLine("Input a digit, vowel or consonant and I'll tell you which of them the input is");
+char characterInput = Console.ReadKey().KeyChar;
+
+bool IsVowel(char character)
+{
+    return "aeiouAEIOU".Contains(character);
+}
+
+if (char.IsDigit(characterInput))
+{
+    Console.WriteLine($"{characterInput} is a digit");
+}else if (IsVowel(characterInput))
+{
+    Console.WriteLine($"{characterInput} is a vowel.");
+}
+else (char.IsLetter(characterInput))
+{
+    Console.WriteLine($"{characterInput} is a letter");
+}
+
+
 //part 4 of assignment
 
 Console.WriteLine("P11_4Calculator");
@@ -110,3 +130,5 @@ else
 }
 
 Console.WriteLine($"{mathUnit}{unitToCalculate}{mathUnit2}={resultCalculation}");
+
+//part 5 of the assignment
