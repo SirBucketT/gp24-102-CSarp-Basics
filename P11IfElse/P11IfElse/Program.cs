@@ -106,8 +106,7 @@ if (unitToCalculate == "+"){
 }
 else
 {
-    Console.WriteLine("Please give me a unit for the calculation");
+    Console.WriteLine("Please give me a unit to calculate");
 }
-
 
 Console.WriteLine($"{mathUnit}{unitToCalculate}{mathUnit2}={resultCalculation}");
