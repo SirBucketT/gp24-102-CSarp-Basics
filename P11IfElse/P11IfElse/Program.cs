@@ -95,9 +95,19 @@ Console.WriteLine("Unit to calculate");
 string unitToCalculate = Console.ReadLine();
 Console.WriteLine("Number two input");
 int mathUnit2 = int.Parse(Console.ReadLine());
-int resultingValue; 
+int resultCalculation = 1;
+
+if (unitToCalculate == "+"){
+    resultCalculation = mathUnit + mathUnit2;
+}else if (unitToCalculate == "*"){
+    resultCalculation = mathUnit * mathUnit2;
+}else if(unitToCalculate == "/"){
+    resultCalculation = mathUnit / mathUnit2;
+}
+else
+{
+    Console.WriteLine("Please give me a unit for the calculation");
+}
 
 
-
-
-Console.WriteLine($"{mathUnit}{unitToCalculate}{mathUnit2}"=);
+Console.WriteLine($"{mathUnit}{unitToCalculate}{mathUnit2}={resultCalculation}");

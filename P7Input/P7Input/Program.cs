@@ -1,4 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿﻿// See https://aka.ms/new-console-template for more information
 string thyName = "What's your name?";
 Console.WriteLine(thyName);
 string input;
