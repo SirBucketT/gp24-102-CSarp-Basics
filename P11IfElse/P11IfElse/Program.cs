@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("What's your age?");
+/*
+ Console.WriteLine("What's your age?");
 int age = int.Parse(Console.ReadLine());
 
 if (age <= 12){
@@ -48,7 +49,8 @@ if (p11_1Grades <= 60)
 }
 
 
-//P11_2MinMax
+//pat 2 of assignment
+
 Console.WriteLine("P11_2MinMax");
 Console.WriteLine("Give me three numbers and I'll tell you the two largest once");
 
@@ -77,3 +79,25 @@ if (min < numberTheSeconds) //if min is lower then the value of 2, min addopts t
 }
 Console.WriteLine($"{min}, {max}");
 
+//Part 3 of assignment
+
+Console.WriteLine("P11_3Characters");
+Console.WriteLine("");
+*/ 
+//part 4 of assignment
+
+Console.WriteLine("P11_4Calculator");
+Console.WriteLine("Give me two numbers and a unit to calutulate.");
+
+Console.WriteLine("Number one input");
+int mathUnit  = int.Parse(Console.ReadLine());
+Console.WriteLine("Unit to calculate");
+string unitToCalculate = Console.ReadLine();
+Console.WriteLine("Number two input");
+int mathUnit2 = int.Parse(Console.ReadLine());
+int resultingValue; 
+
+
+
+
+Console.WriteLine($"{mathUnit}{unitToCalculate}{mathUnit2}"=);
