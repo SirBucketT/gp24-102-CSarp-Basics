@@ -91,15 +91,11 @@ bool IsVowel(char character)
     return "aeiouAEIOU".Contains(character);
 }
 
-if (char.IsDigit(characterInput))
-{
+if (char.IsDigit(characterInput)){
     Console.WriteLine($"{characterInput} is a digit");
-}else if (IsVowel(characterInput))
-{
+}else if (IsVowel(characterInput)){
     Console.WriteLine($"{characterInput} is a vowel.");
-}
-else (char.IsLetter(characterInput))
-{
+}else{
     Console.WriteLine($"{characterInput} is a letter");
 }
 
@@ -132,3 +128,4 @@ else
 Console.WriteLine($"{mathUnit}{unitToCalculate}{mathUnit2}={resultCalculation}");
 
 //part 5 of the assignment
+Console.WriteLine("P11_5EvenOrOdd)");
