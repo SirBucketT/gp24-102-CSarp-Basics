@@ -129,3 +129,13 @@ Console.WriteLine($"{mathUnit}{unitToCalculate}{mathUnit2}={resultCalculation}")
 
 //part 5 of the assignment
 Console.WriteLine("P11_5EvenOrOdd)");
+Console.WriteLine("Give me a number and I'll tell you if the number is even or off");
+int numberEvenOdd = int.Parse(Console.ReadLine());
+
+if (numberEvenOdd % 2 == 0)
+{
+    Console.WriteLine($"{numberEvenOdd} is an even number");
+}
+else{
+    Console.WriteLine($"{numberEvenOdd} is an odd number");
+}
