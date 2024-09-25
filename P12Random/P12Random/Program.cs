@@ -3,10 +3,10 @@ Console.WriteLine("Please pass me a seed (integer).");
 
 int userInput = int.Parse(Console.ReadLine());
 
-Random RandoWithSeed = new Random(userInput);
 Random randNoSeed = new Random();
-
-Console.WriteLine(RandoWithSeed.Next()); // Writes out an random number on the console based on the seed given earlier
+Random seed = new Random(userInput);
+    
+Console.WriteLine(seed.Next()); // Writes out an random number on the console based on the seed given earlier
 
 Console.WriteLine("Three integers between 0 and 5:");
 Console.WriteLine(randNoSeed.Next(0, 5)); // writes a output between 0 and 5, excluding 5
@@ -26,8 +26,7 @@ Console.WriteLine(randNoSeed.NextDouble() * 0.5 + 0.2);
 Console.WriteLine("Give me a crit chance between 0,0 (0%) and 1,0 (100%)");
 double critInput = double.Parse(Console.ReadLine());
 
-Random critSeed = new Random(critInput);
-
+Console.WriteLine($"{seed.NextDouble()}"); //generates a number on console based on users input and prints a result between 0.0 (0%) and 1.0 (100%)
 
 /*
 Console.WriteLine(randNoSeed.NextDouble());
