@@ -44,16 +44,80 @@ for (int loop4 = 0; loop4 < 5; loop4++) // creates a random loop that runs 5 tim
     }
 }
 
+
+
+Console.WriteLine("press f and enter to wipe console and proceed to next step");
+string wiper = Console.ReadLine();
+if (wiper == "f" || wiper == "F")
+{
+    Console.Clear();
+}
+
+
+
+
+//part 2 of the assignment
 Console.WriteLine("P12_1Random_Coordinates");
 Console.WriteLine("Develop a program that generates random X and Y coordinates for an enemy in a 2D game world with 100x100 coordinates. Display these coordinates to the user.");
 
-//Uses random with name cordinate randomizer
-Random cordinateRandomizer = new Random();
+//Uses random with name coordinates Randomizer
+Random coordinatesRandomizer = new Random();
 
 //creates two whole numbers with the int names of x and y and randomizing their location.
-int xCordinate = cordinateRandomizer.Next(0, 101);
-int yCordinate = cordinateRandomizer.Next(0, 101);
+int xCordinate = coordinatesRandomizer.Next(0, 101);
+int yCordinate = coordinatesRandomizer.Next(0, 101);
 
 
 Console.WriteLine($"Cordinates of \n X={xCordinate} \n Y={yCordinate}");
 
+
+
+
+Console.WriteLine("press f and enter to wipe console and proceed to next step");
+string wiper2 = Console.ReadLine();
+if (wiper2 == "f" || wiper2 == "F")
+{
+    Console.Clear();
+}
+
+
+
+
+//part 3 of the assignment
+Console.WriteLine("P12_2Random_Password");
+Console.WriteLine("Design a program that generates a random password with 6 characters, digits or symbols.");
+
+//create a random generator named password randomizer and creates strigns for digits, characters and symbols
+Random passwordRandomizer = new Random();
+string digits = "1234567890";
+string symbols = "!@#$%^&*()_+-=[]{}|;':\",./<>?";
+string characters = "qwertyuiopåäölkjhgfdsazxcvbnmQWERTYUIOPÅÄÖLKJHGFDSAZXCVBNM";
+
+string combiner = digits + characters + symbols; //creates a string that acts as a index for password generator to use
+string password = "";
+
+
+
+//loop that loops 6 times to generate password
+for (int passwordGeneratorLoop = 0; passwordGeneratorLoop < 6; passwordGeneratorLoop++)
+{
+    int index = passwordRandomizer.Next(combiner.Length);
+    password += combiner[index];
+}
+Console.WriteLine($"Password: {password}");
+
+
+
+
+Console.WriteLine("press f and enter to wipe console and proceed to next step");
+string wiper3 = Console.ReadLine();
+if (wiper3 == "f" || wiper3 == "F")
+{
+    Console.Clear();
+}
+
+
+
+//Part 4 of the assignment
+Console.WriteLine("P12_3Random_Item");
+Console.WriteLine("Write a program that simulates item drops in a game. Define five different items, and randomly select an item for the player to acquire.");
