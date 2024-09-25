@@ -17,6 +17,7 @@ Console.WriteLine(randNoSeed.NextDouble() * 5d); // Writes a output between 0 an
 Console.WriteLine(randNoSeed.NextDouble() * 5d);
 Console.WriteLine(randNoSeed.NextDouble() * 5d);
 
+Console.WriteLine("Three numbers between 0.2 and 0.7:");
 Console.WriteLine(randNoSeed.NextDouble() * 0.5 + 0.2); // writes a output between 0.2 and 0.7
 Console.WriteLine(randNoSeed.NextDouble() * 0.5 + 0.2);
 Console.WriteLine(randNoSeed.NextDouble() * 0.5 + 0.2);
