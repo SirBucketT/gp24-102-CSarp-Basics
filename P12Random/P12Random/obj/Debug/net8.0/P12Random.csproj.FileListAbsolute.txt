@@ -1,0 +1,15 @@
+C:\Projects\gp24-102-CSarp-Basics\P12Random\P12Random\obj\Debug\net8.0\P12Random.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\gp24-102-CSarp-Basics\P12Random\P12Random\obj\Debug\net8.0\P12Random.AssemblyInfoInputs.cache
+C:\Projects\gp24-102-CSarp-Basics\P12Random\P12Random\obj\Debug\net8.0\P12Random.AssemblyInfo.cs
+C:\Projects\gp24-102-CSarp-Basics\P12Random\P12Random\obj\Debug\net8.0\P12Random.csproj.CoreCompileInputs.cache
+C:\Projects\gp24-102-CSarp-Basics\P12Random\P12Random\obj\Debug\net8.0\P12Random.sourcelink.json
+C:\Projects\gp24-102-CSarp-Basics\P12Random\P12Random\bin\Debug\net8.0\P12Random.exe
+C:\Projects\gp24-102-CSarp-Basics\P12Random\P12Random\bin\Debug\net8.0\P12Random.deps.json
+C:\Projects\gp24-102-CSarp-Basics\P12Random\P12Random\bin\Debug\net8.0\P12Random.runtimeconfig.json
+C:\Projects\gp24-102-CSarp-Basics\P12Random\P12Random\bin\Debug\net8.0\P12Random.dll
+C:\Projects\gp24-102-CSarp-Basics\P12Random\P12Random\bin\Debug\net8.0\P12Random.pdb
+C:\Projects\gp24-102-CSarp-Basics\P12Random\P12Random\obj\Debug\net8.0\P12Random.dll
+C:\Projects\gp24-102-CSarp-Basics\P12Random\P12Random\obj\Debug\net8.0\refint\P12Random.dll
+C:\Projects\gp24-102-CSarp-Basics\P12Random\P12Random\obj\Debug\net8.0\P12Random.pdb
+C:\Projects\gp24-102-CSarp-Basics\P12Random\P12Random\obj\Debug\net8.0\P12Random.genruntimeconfig.cache
+C:\Projects\gp24-102-CSarp-Basics\P12Random\P12Random\obj\Debug\net8.0\ref\P12Random.dll
