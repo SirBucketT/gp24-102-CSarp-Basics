@@ -44,15 +44,16 @@ for (int loop4 = 0; loop4 < 5; loop4++) // creates a random loop that runs 5 tim
     }
 }
 
+Console.WriteLine("P12_1Random_Coordinates");
+Console.WriteLine("Develop a program that generates random X and Y coordinates for an enemy in a 2D game world with 100x100 coordinates. Display these coordinates to the user.");
+
+//Uses random with name cordinate randomizer
+Random cordinateRandomizer = new Random();
+
+//creates two whole numbers with the int names of x and y and randomizing their location.
+int xCordinate = cordinateRandomizer.Next(0, 101);
+int yCordinate = cordinateRandomizer.Next(0, 101);
 
 
-//Console.WriteLine($"{seed.NextDouble()}"); //generates a number on console based on users input and prints a result between 0.0 (0%) and 1.0 (100%)
+Console.WriteLine($"Cordinates of \n X={xCordinate} \n Y={yCordinate}");
 
-/*
-Console.WriteLine(randNoSeed.NextDouble());
-Console.WriteLine(randNoSeed.NextSingle());
-
-for (int i = 0; i < 100; i++){
-    Console.WriteLine(randNoSeed.Next(0, 5));
-}
-*/
