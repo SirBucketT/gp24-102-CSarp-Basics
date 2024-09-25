@@ -96,8 +96,6 @@ string characters = "qwertyuiopåäölkjhgfdsazxcvbnmQWERTYUIOPÅÄÖLKJHGFDSAZX
 string combiner = digits + characters + symbols; //creates a string that acts as a index for password generator to use
 string password = "";
 
-
-
 //loop that loops 6 times to generate password
 for (int passwordGeneratorLoop = 0; passwordGeneratorLoop < 6; passwordGeneratorLoop++)
 {
