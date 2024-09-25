@@ -24,9 +24,24 @@ Console.WriteLine(randNoSeed.NextDouble() * 0.5 + 0.2);
 Console.WriteLine(randNoSeed.NextDouble() * 0.5 + 0.2);
 
 Console.WriteLine("Give me a crit chance between 0,0 (0%) and 1,0 (100%)");
-double critInput = double.Parse(Console.ReadLine());
+double critChance = double.Parse(Console.ReadLine());
 
-Console.WriteLine($"{seed.NextDouble()}"); //generates a number on console based on users input and prints a result between 0.0 (0%) and 1.0 (100%)
+for (int i = 0; i < 5; i++) // creates a random loop that runs 5 times 
+{
+    double roll = seed.NextDouble(); // creates a new random double named roll that equals to the original seed
+    if (roll < critChance) 
+    {
+        Console.WriteLine("Crit");
+    }
+    else
+    {
+        Console.WriteLine("No Crit");
+    }
+}
+
+
+
+//Console.WriteLine($"{seed.NextDouble()}"); //generates a number on console based on users input and prints a result between 0.0 (0%) and 1.0 (100%)
 
 /*
 Console.WriteLine(randNoSeed.NextDouble());
