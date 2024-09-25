@@ -13,6 +13,7 @@ Console.WriteLine(randNoSeed.Next(0, 5)); // writes a output between 0 and 5, ex
 Console.WriteLine(randNoSeed.Next(0, 5));
 Console.WriteLine(randNoSeed.Next(0, 5));
 
+Console.WriteLine("Three numbers between 0.0 and 0.5");
 Console.WriteLine(randNoSeed.NextDouble() * 5d); // Writes a output between 0 and 0.4999
 Console.WriteLine(randNoSeed.NextDouble() * 5d);
 Console.WriteLine(randNoSeed.NextDouble() * 5d);
@@ -21,6 +22,11 @@ Console.WriteLine("Three numbers between 0.2 and 0.7:");
 Console.WriteLine(randNoSeed.NextDouble() * 0.5 + 0.2); // writes a output between 0.2 and 0.7
 Console.WriteLine(randNoSeed.NextDouble() * 0.5 + 0.2);
 Console.WriteLine(randNoSeed.NextDouble() * 0.5 + 0.2);
+
+Console.WriteLine("Give me a crit chance between 0,0 (0%) and 1,0 (100%)");
+double critInput = double.Parse(Console.ReadLine());
+
+Random critSeed = new Random(critInput);
 
 
 /*
