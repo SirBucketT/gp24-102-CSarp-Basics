@@ -227,15 +227,15 @@ string funboxes = Console.ReadLine();
     {
         Console.WriteLine($"Charecter equips" + 
                           $"\n {itemDropped}" + 
-                          $"{itemDropped2} \n" + 
-                          $"{itemDropped3}");
+                          $"\n {itemDropped2} " + 
+                          $"\n {itemDropped3}");
     
     }
     else
     {
         Console.WriteLine($"Character dropped" + 
                           $"\n {itemDropped}" + 
-                          $"{itemDropped2} \n" + 
-                          $"{itemDropped3}");
+                          $"\n {itemDropped2} " + 
+                          $"\n {itemDropped3}");
     }
     }
