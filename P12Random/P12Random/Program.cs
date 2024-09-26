@@ -122,7 +122,18 @@ Console.WriteLine("Write a program that simulates item drops in a game. Define f
 
 Random itemLootBox = new Random();
 
+//list of items lootdrop/lootbox will generate though random
 string superRareSword = "Super Rare Sword";
 string wankySword = "Wanky Sword";
 string excaliburSword = "Excalibur Sword";
 string rustySword = "Rusty Sword";
+string cloakOfInvisibility = "Cloak of Invisibility";
+string gold = "Gold";
+string  chestPlate = "Chest Plate";
+string hat = "Hat";
+string fish = "Fish";
+string rottenMeat = "Rotten Meat";
+string boot = "Boot";
+string pants = "Pants";
+
+
