@@ -146,80 +146,112 @@ Console.WriteLine("Type 'fun' to see what loot you get");
 string funboxes = Console.ReadLine();
     if (funboxes == "fun" || funboxes == "FUN" || funboxes == "fUn" || funboxes == "Fun")
     {
-    
-
-
-    //item 1 drop
-        if (itemGenerator  >= 0){
-            itemDropped = pants;
-        }else if (itemGenerator >= 5)
+        switch (itemGenerator)
         {
-            itemDropped = superRareSword;
-        }else if (itemGenerator >= 6){
-            itemDropped = rustySword;
-        } else if (itemGenerator >= 20){ 
-            itemDropped = cloakOfInvisibility;
-        } else if (itemGenerator >= 30){ 
-            itemDropped = wankySword;
-        } else if (itemGenerator >= 40){ 
-            itemDropped = excaliburSword;
-        } else if (itemGenerator >= 42){ 
-            itemDropped = hat;
-        } else if (itemGenerator >= 50){ 
-            itemDropped = plateArmor;
-        } else if (itemGenerator >= 70){ 
-            itemDropped = boot;
-        } else{ 
-            itemDropped = chestPlate;
+            //item 1 drop
+            case >= 0 and <= 4:
+                itemDropped = pants;
+                break;
+            case 5:
+                itemDropped = superRareSword;
+                break;
+            case >= 6 and <= 19:
+                itemDropped = rustySword;
+                break;
+            case >= 20 and <= 29:
+                itemDropped = cloakOfInvisibility;
+                break;
+            case >= 30 and <= 39:
+                itemDropped = wankySword;
+                break;
+            case >= 40 and <= 41:
+                itemDropped = excaliburSword;
+                break;
+            case >= 42 and <= 49:
+                itemDropped = hat;
+                break;
+            case >= 50 and <= 69:
+                itemDropped = plateArmor;
+                break;
+            case >= 70 and <= 85:
+                itemDropped = boot;
+                break;
+            default:
+                itemDropped = chestPlate;
+                break;
         }
 
+        switch (itemGenerator2)
+        {
             //item 2 drop
-            if (itemGenerator2  >= 0){
+            case >= 0 and <= 4:
                 itemDropped2 = pants;
-            } else if (itemGenerator2 >= 5){
+                break;
+            case 5:
                 itemDropped2 = superRareSword;
-            } else if (itemGenerator2 >= 6){
+                break;
+            case >= 6 and <= 19:
                 itemDropped2 = rustySword;
-            } else if (itemGenerator2 >= 20){ 
+                break;
+            case >= 20 and <= 29:
                 itemDropped2 = cloakOfInvisibility;
-            } else if (itemGenerator2 >= 30){ 
+                break;
+            case >= 30 and <= 39:
                 itemDropped2 = wankySword;
-            } else if (itemGenerator2 >= 40){ 
+                break;
+            case >= 40 and <= 41:
                 itemDropped2 = excaliburSword;
-            } else if (itemGenerator2 >= 42){ 
+                break;
+            case >= 42 and <= 49:
                 itemDropped2 = hat;
-            } else if (itemGenerator2 >= 50){ 
+                break;
+            case >= 50 and <= 69:
                 itemDropped2 = plateArmor;
-            } else if (itemGenerator2 >= 70){ 
+                break;
+            case >= 70 and <= 85:
                 itemDropped2 = boot;
-            } else{ 
+                break;
+            default:
                 itemDropped2 = chestPlate;
-            }
-
-        //iten 3 drop
-        if (itemGenerator3  >= 0){
-            itemDropped3 = pants;
-        } else if (itemGenerator >= 5){ 
-            itemDropped3 = superRareSword;
-        } else if (itemGenerator3 >= 6){
-            itemDropped3 = rustySword;
-        } else if (itemGenerator3 >= 20){ 
-            itemDropped3 = cloakOfInvisibility;
-        } else if (itemGenerator3 >= 30){ 
-            itemDropped3 = wankySword;
-        } else if (itemGenerator3 >= 40){ 
-            itemDropped3 = excaliburSword;
-        } else if (itemGenerator3 >= 42){ 
-            itemDropped3 = hat;
-        } else if (itemGenerator3 >= 50){ 
-            itemDropped3 = plateArmor;
-        } else if (itemGenerator3 >= 70){ 
-            itemDropped3 = boot;
-        } else{ 
-            itemDropped3 = chestPlate;
+                break;
         }
 
-    Console.WriteLine($"Item drops and added to inventory {itemDropped}, {itemDropped2} and {itemDropped3}");
+        switch (itemGenerator3)
+        {
+            //item 3 drop
+            case >= 0 and <= 4:
+                itemDropped3 = pants;
+                break;
+            case 5:
+                itemDropped3 = superRareSword;
+                break;
+            case >= 6 and <= 19:
+                itemDropped3 = rustySword;
+                break;
+            case >= 20 and <= 29:
+                itemDropped3 = cloakOfInvisibility;
+                break;
+            case >= 30 and <= 39:
+                itemDropped3 = wankySword;
+                break;
+            case >= 40 and <= 41:
+                itemDropped3 = excaliburSword;
+                break;
+            case >= 42 and <= 49:
+                itemDropped3 = hat;
+                break;
+            case >= 50 and <= 69:
+                itemDropped3 = plateArmor;
+                break;
+            case >= 70 and <= 85:
+                itemDropped3 = boot;
+                break;
+            default:
+                itemDropped3 = chestPlate;
+                break;
+        }
+
+    Console.WriteLine($"Item drops \n {itemDropped} \n {itemDropped2} \n {itemDropped3} \n added to inventory");
     Console.WriteLine("Type 'Equip' to equip the items or 'Drop' to remove the items from the inventory.");
     string equippedItem = Console.ReadLine();
 
@@ -239,3 +271,16 @@ string funboxes = Console.ReadLine();
                           $"\n {itemDropped3}");
     }
     }
+
+Console.WriteLine("press f and enter to wipe console and proceed to next step");
+string wiper4 = Console.ReadLine();
+if (wiper4 == "f" || wiper4 == "F")
+{
+    Console.Clear();
+}
+
+
+
+//part 5 of the assignment
+
+Console.WriteLine("P12_4Random_Chance: \n \n Write a program that has a 10% chance of showing a secret message. Otherwise it just displays a message saying to try again.");
