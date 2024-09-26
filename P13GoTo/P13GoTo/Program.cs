@@ -109,3 +109,5 @@ for (int i = 0; i < dollarInput; i++)
 
 //part three of the assignment
 Console.WriteLine("P13_2Triangle");
+Console.WriteLine("I'll print a triangle in the input below");
+
