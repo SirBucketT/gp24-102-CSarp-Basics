@@ -3,7 +3,7 @@
 using System.Diagnostics;
 using System.Text;
 Console.OutputEncoding = Encoding.UTF8;
-
+/*
 int victoryScore = 0;
 int lostScore = 0;
 
@@ -30,9 +30,9 @@ while (keepPlaying)
         Console.WriteLine($"Correct guesses: {victoryScore}.  \n" +
                           $"Wrong guesses: {lostScore}.");
         
-        // Restart game? 
-        Console.WriteLine("Would you like to guess again? (y/n)");
-        keepPlaying = Console.ReadLine().ToLower() == "y";
+        // Restart game
+        keepPlaying = true;
+        
     } else if (numberInput < numberOutput)
     {
         Console.WriteLine("(⸝⸝ᴗ﹏ᴗ⸝⸝) ᶻ 𝗓 𐰁 \n " +
@@ -57,11 +57,11 @@ while (keepPlaying)
     {
         lostScore++;
         Console.WriteLine($"\u00af\\_(ツ)_/\u00af \n" +
-                          $"Are you even trying to guess it? I said it was a number between 1-100. How dumb can you be!!??!! \n " +
+                          $"Are you even trying to guess it? I asked for a number between 1-100. \n " +
                           $"Correct guesses: {victoryScore}. \n " +
                           $"Wrong guesses: {lostScore}.");
         //  
-        Console.WriteLine("I think I'll go ahead and quit before you embarrass yourself too much with your bad guesses!");
+        Console.WriteLine("Goodbye!");
         keepPlaying = false;
     }
 
@@ -72,6 +72,40 @@ while (keepPlaying)
     } else if (lostScore == 5 && victoryScore < 5)
     {
         Console.WriteLine("(ง ͠ಥ_ಥ)ง \n " +
-                         $"I have the high ground Anaki... I mean you suck at this, you're current losses={lostScore}");
+                         $"I have the high ground Anaki... I mean the lead over you, you're current losses= {lostScore}.");
     }
+
+    if (victoryScore == 10 && lostScore < 10)
+    {
+        Console.WriteLine("  (҂ `з´) \n" +
+                          "Hoo boy now I'm mad. I'm not a bad loser, but I'll reset the scores in my favor");
+        
+            lostScore = victoryScore + 5;
+            victoryScore--;
+        Console.WriteLine($"Your current wins: {victoryScore}. \n " +
+                          $"Your current losses: {lostScore}.");
+        Console.WriteLine("Ah there much better \n " +
+                          " ≽.^•⩊•^≼");
+    } else if (lostScore == 10 && victoryScore < 10)
+    {
+        Console.WriteLine("You're not so good at this guessing thing. \n " +
+                          "Come back when you get better at guessing. \n " +
+                          " \n " +
+                          "Goodbye");
+    }
+}*/
+
+//part two of assignment 
+Console.Clear();
+Console.WriteLine("P13_1Dollars");
+
+Console.WriteLine("How many dollars do you want?");
+int dollarInput = int.Parse(Console.ReadLine());
+
+for (int i = 0; i < dollarInput; i++)
+{
+    Console.Write("&");
 }
+
+//part three of the assignment
+Console.WriteLine("P13_2Triangle");
