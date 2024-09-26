@@ -128,12 +128,59 @@ string wankySword = "Wanky Sword";
 string excaliburSword = "Excalibur Sword";
 string rustySword = "Rusty Sword";
 string cloakOfInvisibility = "Cloak of Invisibility";
-string gold = "Gold";
-string  chestPlate = "Chest Plate";
+string plateArmor = "Plate Armor";
+string chestPlate = "Chest Plate";
 string hat = "Hat";
-string fish = "Fish";
-string rottenMeat = "Rotten Meat";
 string boot = "Boot";
 string pants = "Pants";
 
 
+int itemGenerator = itemLootBox.Next(0, 101);
+int itemGenerator2 = itemLootBox.Next(0, 101);
+int itemGenerator3 = itemLootBox.Next(0, 101);
+string itemDropped = "";
+string itemDropped2 = "";
+string itemDropped3 = "";
+
+
+if (itemGenerator  >= 0){
+    itemDropped = pants;
+} else if (itemGenerator >= 5){
+    itemDropped = superRareSword;
+} else if (itemGenerator >= 6){
+    itemDropped = rustySword;
+} else if (itemGenerator >= 20){ 
+    itemDropped = cloakOfInvisibility;
+} else if (itemGenerator >= 30){ 
+    itemDropped = wankySword;
+} else if (itemGenerator >= 40){ 
+    itemDropped = excaliburSword;
+} else if (itemGenerator >= 42){ 
+    itemDropped = hat;
+} else if (itemGenerator >= 50){ 
+    itemDropped = plateArmor;
+} else if (itemGenerator >= 70){ 
+    itemDropped = boot;
+} else{ 
+    itemDropped = chestPlate;
+}
+
+Console.WriteLine($"Item drops and added to inventory {itemDropped}, {itemDropped2} and {itemDropped3}");
+Console.WriteLine("Type 'Equip' to equip the items or 'Drop' to remove the items from the inventory.");
+string equippedItem = Console.ReadLine();
+
+if (equippedItem == "Equip" ||  equippedItem == "equip")
+{
+    Console.WriteLine($"Charecter equips" +
+                      $"\n {itemDropped}" + 
+                      $"{itemDropped2} \n" + 
+                      $"{itemDropped3}");
+    
+}
+else
+{
+    Console.WriteLine($"Character dropped" +
+                      $"\n {itemDropped}" + 
+                      $"{itemDropped2} \n" + 
+                      $"{itemDropped3}");
+}
