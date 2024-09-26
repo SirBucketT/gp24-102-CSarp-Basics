@@ -119,3 +119,10 @@ if (wiper3 == "f" || wiper3 == "F")
 //Part 4 of the assignment
 Console.WriteLine("P12_3Random_Item");
 Console.WriteLine("Write a program that simulates item drops in a game. Define five different items, and randomly select an item for the player to acquire.");
+
+Random itemLootBox = new Random();
+
+string superRareSword = "Super Rare Sword";
+string wankySword = "Wanky Sword";
+string excaliburSword = "Excalibur Sword";
+string rustySword = "Rusty Sword";
