@@ -250,13 +250,13 @@ string funboxes = Console.ReadLine();
                     break;
             }
 
-        Console.WriteLine($"Item drops \n {itemDropped} \n {itemDropped2} \n {itemDropped3} \n added to inventory");
+        Console.WriteLine($"Item drops \n {itemDropped} \n {itemDropped2} \n {itemDropped3} \n \n {itemDropped}, {itemDropped2} and {itemDropped3} added to inventory");
         Console.WriteLine("Type 'Equip' to equip the items or 'Drop' to remove the items from the inventory.");
         string equippedItem = Console.ReadLine();
 
         if (equippedItem == "Equip" ||  equippedItem == "equip")
         {
-            Console.WriteLine($"Charecter equips" + 
+            Console.WriteLine($"Character equips" + 
                               $"\n {itemDropped}" + 
                               $"\n {itemDropped2} " + 
                               $"\n {itemDropped3}");
