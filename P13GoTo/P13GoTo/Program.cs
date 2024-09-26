@@ -11,16 +11,15 @@ Random randomNumber = new Random(); //creates a random number generator
 
 Console.WriteLine("Hello there \n " +
                   "(づ｡◕‿◕｡)づ \n " +
-                  "I have picked a random number between 1 and 100. It's your turn to guess it and get ready to lose!"); 
+                  "I have picked a random number between 1 and 100. It's your turn to guess it and get ready to lose!");
+
+int numberOutput = randomNumber.Next(1, 101);
 
 bool keepPlaying = true; // Flag to control game loop
 
 while (keepPlaying)
 {
-
-
-    int numberOutput = randomNumber.Next(1, 101); //creates integer named number output and gives it a random value between 1-100
-
+    Console.WriteLine("Input number below");
     int numberInput = Convert.ToInt32(Console.ReadLine());
 
     if (numberInput > numberOutput)
@@ -32,7 +31,7 @@ while (keepPlaying)
                           $"Wrong guesses: {lostScore}.");
         
         // Restart game? 
-        Console.WriteLine("Would you like to play again? (y/n)");
+        Console.WriteLine("Would you like to guess again? (y/n)");
         keepPlaying = Console.ReadLine().ToLower() == "y";
     } else if (numberInput < numberOutput)
     {
@@ -41,10 +40,7 @@ while (keepPlaying)
         lostScore++;
         Console.WriteLine($"Correct guesses: {victoryScore}.  \n" +
                           $"Wrong guesses: {lostScore}.");
-        
-        // Restart game? 
-        Console.WriteLine("Would you like to play again? (y/n)");
-        keepPlaying = Console.ReadLine().ToLower() == "y";
+        keepPlaying = true;
         
     } else if (numberInput == numberOutput)
     {
@@ -54,9 +50,8 @@ while (keepPlaying)
                           $"Correct guesses: {victoryScore}. \n" +
                           $"Wrong guesses: {lostScore}.");
         
-        // Restart game? 
-        Console.WriteLine("Would you like to play again? (y/n)");
-        keepPlaying = Console.ReadLine().ToLower() == "y";
+        // Forces player to guess again 
+        keepPlaying = true;
     }
     else
     {
@@ -65,11 +60,18 @@ while (keepPlaying)
                           $"Are you even trying to guess it? I said it was a number between 1-100. How dumb can you be!!??!! \n " +
                           $"Correct guesses: {victoryScore}. \n " +
                           $"Wrong guesses: {lostScore}.");
-        // Restart game? 
-        Console.WriteLine("Would you like to play again? (y/n)");
-        keepPlaying = Console.ReadLine().ToLower() == "y";
+        //  
+        Console.WriteLine("I think I'll go ahead and quit before you embarrass yourself too much with your bad guesses!");
+        keepPlaying = false;
+    }
+
+    if (victoryScore == 5 && lostScore < 5)
+    {
+        Console.WriteLine("(｡>﹏<) \n " +
+                          $"You scored {victoryScore}. You're guessing ability is far greater then I would've expected");
+    } else if (lostScore == 5 && victoryScore < 5)
+    {
+        Console.WriteLine("(ง ͠ಥ_ಥ)ง \n " +
+                         $"I have the high ground Anaki... I mean you suck at this, you're current losses={lostScore}");
     }
 }
-
-Console.WriteLine("(｡>﹏<) \n " +
-                  "Why you so boring, come back here and play again!!");
