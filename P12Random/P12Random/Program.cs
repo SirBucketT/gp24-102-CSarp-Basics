@@ -134,7 +134,6 @@ string hat = "Hat";
 string boot = "Boot";
 string pants = "Pants";
 
-
 int itemGenerator = itemLootBox.Next(0, 101);
 int itemGenerator2 = itemLootBox.Next(0, 101);
 int itemGenerator3 = itemLootBox.Next(0, 101);
