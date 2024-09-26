@@ -284,3 +284,18 @@ if (wiper4 == "f" || wiper4 == "F")
 //part 5 of the assignment
 
 Console.WriteLine("P12_4Random_Chance: \n \n Write a program that has a 10% chance of showing a secret message. Otherwise it just displays a message saying to try again.");
+Random messageOfFate = new Random();
+
+Console.WriteLine("Press 'f' to pray for a fated message.");
+string fatedInput = Console.ReadLine();
+
+int randomFateMessage = messageOfFate.Next(0, 101);
+
+if (fatedInput == "f" || fatedInput == "F"){
+    if (randomFateMessage <= 10){
+        Console.WriteLine("You are one of the choosen 10% who gets to see this very exclusive of messages");
+    }
+    else{
+        Console.WriteLine("Thou has not been choosen by the mystical powers of fate. Please try again.");
+    }
+}
