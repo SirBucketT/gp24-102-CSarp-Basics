@@ -1,0 +1,15 @@
+C:\Projects\gp24-102-CSarp-Basics\P13GoTo\P13GoTo\bin\Debug\net8.0\P13GoTo.exe
+C:\Projects\gp24-102-CSarp-Basics\P13GoTo\P13GoTo\bin\Debug\net8.0\P13GoTo.deps.json
+C:\Projects\gp24-102-CSarp-Basics\P13GoTo\P13GoTo\bin\Debug\net8.0\P13GoTo.runtimeconfig.json
+C:\Projects\gp24-102-CSarp-Basics\P13GoTo\P13GoTo\bin\Debug\net8.0\P13GoTo.dll
+C:\Projects\gp24-102-CSarp-Basics\P13GoTo\P13GoTo\bin\Debug\net8.0\P13GoTo.pdb
+C:\Projects\gp24-102-CSarp-Basics\P13GoTo\P13GoTo\obj\Debug\net8.0\P13GoTo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\gp24-102-CSarp-Basics\P13GoTo\P13GoTo\obj\Debug\net8.0\P13GoTo.AssemblyInfoInputs.cache
+C:\Projects\gp24-102-CSarp-Basics\P13GoTo\P13GoTo\obj\Debug\net8.0\P13GoTo.AssemblyInfo.cs
+C:\Projects\gp24-102-CSarp-Basics\P13GoTo\P13GoTo\obj\Debug\net8.0\P13GoTo.csproj.CoreCompileInputs.cache
+C:\Projects\gp24-102-CSarp-Basics\P13GoTo\P13GoTo\obj\Debug\net8.0\P13GoTo.sourcelink.json
+C:\Projects\gp24-102-CSarp-Basics\P13GoTo\P13GoTo\obj\Debug\net8.0\P13GoTo.dll
+C:\Projects\gp24-102-CSarp-Basics\P13GoTo\P13GoTo\obj\Debug\net8.0\refint\P13GoTo.dll
+C:\Projects\gp24-102-CSarp-Basics\P13GoTo\P13GoTo\obj\Debug\net8.0\P13GoTo.pdb
+C:\Projects\gp24-102-CSarp-Basics\P13GoTo\P13GoTo\obj\Debug\net8.0\P13GoTo.genruntimeconfig.cache
+C:\Projects\gp24-102-CSarp-Basics\P13GoTo\P13GoTo\obj\Debug\net8.0\ref\P13GoTo.dll
