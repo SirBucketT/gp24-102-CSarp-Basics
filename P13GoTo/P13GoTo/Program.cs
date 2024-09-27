@@ -11,11 +11,11 @@ Random randomNumber = new Random(); //creates a random number generator
 
 Console.WriteLine("Hello there \n " +
                   "(づ｡◕‿◕｡)づ \n " +
-                  "I have picked a random number between 1 and 100. It's your turn to guess it and get ready to lose!");
+                  "I have picked a random number between 1 and 100. It's your turn to guess it and get ready to guess wrong!");
 
 int numberOutput = randomNumber.Next(1, 101);
 
-bool keepPlaying = true; // Flag to control game loop
+bool keepPlaying = true; // controlS game loop
 
 while (keepPlaying)
 {
@@ -46,7 +46,7 @@ while (keepPlaying)
     {
         victoryScore ++; 
         Console.WriteLine("(⊙ _ ⊙ ) \n " +
-                          "Mighty impressed I am, how dare you guess the right amount. I demand a rematch!! \n " +
+                          "Mighty impressed I am you guess the right amount. I demand a rematch!! \n " +
                           $"Correct guesses: {victoryScore}. \n" +
                           $"Wrong guesses: {lostScore}.");
         
@@ -72,7 +72,7 @@ while (keepPlaying)
     } else if (lostScore == 5 && victoryScore < 5)
     {
         Console.WriteLine("(ง ͠ಥ_ಥ)ง \n " +
-                         $"I have the high ground Anaki... I mean the lead over you, you're current losses= {lostScore}.");
+                         $"I have the high ground, you're current losses = {lostScore}.");
     }
 
     if (victoryScore == 10 && lostScore < 10)
@@ -80,7 +80,7 @@ while (keepPlaying)
         Console.WriteLine("  (҂ `з´) \n" +
                           "Hoo boy now I'm mad. I'm not a bad loser, but I'll reset the scores in my favor");
         
-            lostScore = victoryScore + 5;
+            lostScore = victoryScore + 1;
             victoryScore--;
         Console.WriteLine($"Your current wins: {victoryScore}. \n " +
                           $"Your current losses: {lostScore}.");
@@ -88,10 +88,9 @@ while (keepPlaying)
                           " ≽.^•⩊•^≼");
     } else if (lostScore == 10 && victoryScore < 10)
     {
-        Console.WriteLine("You're not so good at this guessing thing. \n " +
-                          "Come back when you get better at guessing. \n " +
-                          " \n " +
+        Console.WriteLine("You're not so good at this guessing thing " +
                           "Goodbye");
+      keepPlaying = false;
     }
 }
 */
@@ -105,7 +104,7 @@ int dollarInput = int.Parse(Console.ReadLine());
 
 for (int i = 0; i < dollarInput; i++)
 {
-    Console.Write("&");
+    Console.WriteLine("&");
 } 
 
 //part three of the assignment
@@ -118,10 +117,10 @@ int triangleLines = 0;
 int triangleRowLines = 0;
 
 triangleloop: 
-while (triangleLines < triangleInput)
+while (triangleLines < triangleInput) //runs loop if the amount of triangle lines is below that of the user input
 {
     innerTriangleLoop:
-        while (triangleRowLines < triangleInput - triangleLines)
+        while (triangleRowLines < triangleInput - triangleLines) //loop within the while loop that runs as long as the amount of lines is below the input minus the amount of lines.
         {
             Console.Write("#");
             triangleRowLines++;
@@ -131,4 +130,32 @@ while (triangleLines < triangleInput)
     triangleLines++;
     triangleRowLines = 0;
     goto triangleloop;
+}
+
+//part four of the assignment
+Console.WriteLine("P13_3Pattern");
+
+int patternInput = int.Parse(Console.ReadLine());
+int patternLines = 0;
+
+patternloop: 
+while (patternLines < patternInput) 
+{
+    innerPatternLoop:
+        while (patternLines < patternInput)
+            {
+                if ((patternLines + patternLines) % 2 == 0)
+                {
+                    Console.Write("#");
+                }
+                else
+                {
+                    Console.Write("-");
+                }
+                patternLines++;
+                goto innerPatternLoop;
+            }
+    Console.WriteLine();
+    patternLines++;
+    goto patternloop;
 }
