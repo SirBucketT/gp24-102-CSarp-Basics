@@ -93,7 +93,8 @@ while (keepPlaying)
                           " \n " +
                           "Goodbye");
     }
-}*/
+}
+*/
 
 //part two of assignment 
 Console.Clear();
@@ -105,9 +106,29 @@ int dollarInput = int.Parse(Console.ReadLine());
 for (int i = 0; i < dollarInput; i++)
 {
     Console.Write("&");
-}
+} 
 
 //part three of the assignment
 Console.WriteLine("P13_2Triangle");
-Console.WriteLine("I'll print a triangle in the input below");
+Console.WriteLine("I'll print a triangle from the input below");
 
+
+int triangleInput = int.Parse(Console.ReadLine());
+int triangleLines = 0;
+int triangleRowLines = 0;
+
+triangleloop: 
+while (triangleLines < triangleInput)
+{
+    innerTriangleLoop:
+        while (triangleRowLines < triangleInput - triangleLines)
+        {
+            Console.Write("#");
+            triangleRowLines++;
+            goto innerTriangleLoop;
+        }
+    Console.WriteLine();
+    triangleLines++;
+    triangleRowLines = 0;
+    goto triangleloop;
+}
