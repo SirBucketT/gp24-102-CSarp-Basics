@@ -3,7 +3,7 @@
 using System.Diagnostics;
 using System.Text;
 Console.OutputEncoding = Encoding.UTF8;
-/*
+
 int victoryScore = 0;
 int lostScore = 0;
 
@@ -93,7 +93,7 @@ while (keepPlaying)
       keepPlaying = false;
     }
 }
-*/
+
 
 //part two of assignment 
 Console.Clear();
@@ -135,27 +135,25 @@ while (triangleLines < triangleInput) //runs loop if the amount of triangle line
 //part four of the assignment
 Console.WriteLine("P13_3Pattern");
 
-int patternInput = int.Parse(Console.ReadLine());
-int patternLines = 0;
+Console.WriteLine("Write a program that prints the following pretty ASCII pattern of the size that the user desires. Use goto efficiently to write as little code as necessary.");
+        int PatternSize = int.Parse(Console.ReadLine());
 
-patternloop: 
-while (patternLines < patternInput) 
-{
-    innerPatternLoop:
-        while (patternLines < patternInput)
-            {
-                if ((patternLines + patternLines) % 2 == 0)
-                {
-                    Console.Write("#");
-                }
-                else
-                {
-                    Console.Write("-");
-                }
-                patternLines++;
-                goto innerPatternLoop;
-            }
-    Console.WriteLine();
-    patternLines++;
-    goto patternloop;
-}
+        int patternI = 0;
+        goto start;
+
+    loop:
+        // Print each row
+        for (int j = 0; j < PatternSize; j++)
+        {
+            if (patternI % 2 == 0) // Even row
+                Console.Write("#-");
+            else 
+                Console.Write("-#");
+        }
+        Console.WriteLine("#"); // End of row
+
+        patternI++; 
+        
+    start:
+        if (patternI < PatternSize)
+            goto loop;
